@@ -52,7 +52,7 @@ public class Eclipse {
         Period period1 = Period.between(LocalDate.of(2020, 7, 23), LocalDate.now());
         System.out.println(date_time2);
 
-
-
+        Period period2 = Period.of(0,8,9);
+        System.out.println(period2);
     }
 }

@@ -16,13 +16,25 @@ class Sub extends Super {
 
 public class Test {
     public static void main(String[] args) {
-        Super s = new Sub();
-        try {
-            s.m1();
-        } catch (FileNotFoundException e) {
-            System.out.print("M");
-        } finally {
-            System.out.print("N");
-        }
+//        Super s = new Sub();
+//        try {
+//            s.m1();
+//        } catch (FileNotFoundException e) {
+//            System.out.print("M");
+//        } finally {
+//            System.out.print("N");
+//        }
+
+//        double price = 90000;
+//        String model;
+//        if(price > 100000) {
+//            model = "Tesla Model X";
+//        } else if(price <= 100000) {
+//            model = "Tesla Model S";
+//        }
+//        System.out.println(model);
+
+        int[] arr = new int[]{1,2,4,5,6};
+        short [] array = new short[]{100, 100};
     }
 }
